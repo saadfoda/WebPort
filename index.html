@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saad Foda</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"></div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Saad Foda</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile-pic.png" alt="Saad Foda profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Saad Foda</h1>
+        <p class="section__text__p2">Computer Science Student</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/Saad_Foda_Resume.docx')">Download Resume</button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="LinkedIn" class="icon" onclick="location.href='https://www.linkedin.com/in/saad-foda-878a832b2/'" />
+          <img src="./assets/github.png" alt="GitHub" class="icon" onclick="location.href='https://github.com/saadfoda'" />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <h1 class="title">About Me</h1>
+      <p>Motivated Computer Science student with hands-on experience in Python, Java, SQL, and Android Development. Passionate about designing efficient software solutions and working in collaborative environments. Skilled in database management, object-oriented programming, and software development.</p>
+      <h2>Education</h2>
+      <p>B.Sc. Computer Science, Expected 2026 | MacEwan University, Edmonton</p>
+    </section>
+    <section id="skills">
+      <h1 class="title">Skills</h1>
+        <h2>Programming</h2>
+        <ul>
+          <li>Python, Java, C, C#, JavaScript, Kotlin</li>
+        </ul>
+          <h2>Web & Mobile Development</h2>
+          <ul>
+            <li>HTML, CSS, SQL, Android Studio</li>
+          </ul>
+          <h2>Tools & Platforms</h2>
+          <ul>
+            <li>Git, GitHub, Visual Studio, Linux</li>
+          </ul>
+        <h2>Concepts</h2>
+        <ul>
+        <li>Data Structures, Database Design, API Development</li>
+      </ul>
+      </ul>
+    </section>
+    <section id="projects">
+      <h1 class="title">Projects</h1>
+      <div class="project">
+        <h2>Tutor Booking App</h2>
+        <p>Kotlin, Android Studio | Facilitates scheduling of tutoring sessions with Firebase integration.</p>
+        <a href="https://github.com/saadfoda" class="btn">GitHub</a>
+      </div>
+      <div class="project">
+        <h2>Car Rental Database</h2>
+        <p>C#, SQL, Visual Studio | Reservation management with real-time car availability tracking.</p>
+        <a href="https://github.com/saadfoda" class="btn">GitHub</a>
+      </div>
+      <div class="project">
+        <h2>2D Maze Game</h2>
+        <p>C, ncurses Library | Two-level interactive game with AI-enhanced enemy movement.</p>
+        <a href="https://github.com/saadfoda" class="btn">GitHub</a>
+      </div>
+    </section>
+    <section id="contact">
+      <h1 class="title">Contact Me</h1>
+      <p>Email: <a href="mailto:saadfoda04@gmail.com">saadfoda04@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/saad-foda-878a832b2/">Profile</a></p>
+      <p>GitHub: <a href="https://github.com/saadfoda">saadfoda</a></p>
+    </section>
+    <footer>
+      <p>&copy; 2025 Saad Foda. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
